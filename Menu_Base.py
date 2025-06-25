@@ -1,5 +1,9 @@
-
 #FUNCIONES
+
+#rama magdiel
+def datos_magdiel():
+    print (f"Mi nombre es Magdiel Esther Reynoso Ramirez y tengo 22 años.")
+  
 
 #rama juan
 def datos_juan():
@@ -7,16 +11,12 @@ def datos_juan():
     
     
 #rama franco
-
 def datos_franco():
      print("Mi nombre es Franco Inoostroza y tengo 26 años.")
 
 #rama mario
-
 def datos_mario():
-    print("Mi nombre es mario contreras y tengo 28 años."
-          
-          
+    print("Mi nombre es mario contreras y tengo 28 años.")         
           
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
@@ -33,11 +33,9 @@ while True:
     elif op == "1":
         datos_franco()   
     elif op == "2":
-    
-    
+        datos_magdiel()
     elif op == "3":
         datos_mario()
-        
     elif op == "4":
         datos_juan()
 
