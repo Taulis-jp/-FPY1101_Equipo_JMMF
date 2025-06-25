@@ -12,7 +12,7 @@ def datos_juan():
     
 #rama franco
 def datos_franco():
-     print("Mi nombre es Franco Inoostroza y tengo 26 años.")
+     print("Mi nombre es Franco Inostroza y tengo 26 años.")
 
 #rama mario
 def datos_mario():
