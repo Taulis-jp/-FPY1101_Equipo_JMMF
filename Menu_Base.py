@@ -1,3 +1,5 @@
+def datos_mario():
+    print("Mi nombre es mario contreras y tengo 28 años.")
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
     print("1. Función de integrante 1")
@@ -13,11 +15,11 @@ while True:
     pass     # Aquí se llamará a la función del integrante 1
     
     elif op == "2":
-    pass # Aquí se llamará a la función del integrante 2
+    
     
     elif op == "3":
-    pass # Aquí se llamará a la función del integrante 3
-
+        datos_mario()
+        
     elif op == "4":
     pass 
 
