@@ -5,14 +5,15 @@ while True:
     print("3. Función de integrante 3")
     print("0. Salir")
 
+    def datos_franco():
+        print("Mi nombre es Franco Inoostroza y tengo 26 años.")
+
     op = input("Seleccione opción: ")
     if op == "0":
         print("Programa finalizado.")
         break
     elif op == "1":
-        def datos_franco():
-        print("Mi nombre es Franco Inoostroza y tengo 26 años.")
-    pass     
+        def datos_franco():   
     elif op == "2":
     pass # Aquí se llamará a la función del integrante 2
     
