@@ -1,8 +1,16 @@
+#FUNCIONES
+def datos_juan():
+    print("Mi nombre es Juan Pablo Taulis y tengo 18 años.")
+    
+    
+
+
 while True:
     print("\n--- MENÚ PRINCIPAL ---")
     print("1. Función de integrante 1")
     print("2. Función de integrante 2")
     print("3. Función de integrante 3")
+    print("3. Función de integrante 4")
     print("0. Salir")
 
     op = input("Seleccione opción: ")
@@ -19,7 +27,7 @@ while True:
     pass # Aquí se llamará a la función del integrante 3
 
     elif op == "4":
-    pass 
+        datos_juan()
 
     else:
         print(" Opción inválida.")
